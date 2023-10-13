@@ -1,0 +1,95 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container{
+    border-radius: 20px;
+    width: 450px;
+    height: 680px;
+    background-color: #fff;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.text h2{
+    font-weight: 900;
+    font-size: 26px;
+    color: hsl(223, 47%, 23%)
+}
+
+.text p{
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+    font-size: 18px;
+    width: 350px;
+    margin: 0;
+}
+
+
+.annual-plan img{
+    margin-left: 20px;
+}
+
+.annual-plan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  hsl(225, 100%, 98%);
+    width: 350px;
+    height: 90px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+.annual-plan p{
+    margin: 15px;
+}
+
+.payament{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+
+.payament p{
+    padding: 20px;
+    width: 320px;
+    height: 20px;
+    text-align: center;
+    box-shadow: 0 10px 20px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    background-color: hsl(225, 57%, 42%)
+}
+
+.cancel-order{
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    border-radius: 20px 20px 0 0 ;
+}
+
+span{
+    font-weight: 900;
+}
+
+.btn{
+    margin: 10px;
+}
